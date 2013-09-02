@@ -92,7 +92,7 @@ public class TestPolygon extends Geometry {
 		assertThat( p.contains( e5 ), is( false ) );
 
 	}
-	
+
 	/**
 	 *
 	 * <pre>
