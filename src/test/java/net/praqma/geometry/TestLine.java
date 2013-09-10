@@ -31,4 +31,10 @@ public class TestLine {
 		assertThat( l.getGeometricSide( p2 ), is( GeometricSide.LEFT ) );
 		assertThat( l.getGeometricSide( p3 ), is( GeometricSide.COINCIDENT ) );
 	}
+        
+        @Test 
+        public void failMe() {
+            assertThat (true, is(false));
+        }
+                
 }
